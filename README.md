@@ -23,6 +23,23 @@ Proyecto desarrollado en Java con JDBC y MySQL.
 - src → código fuente
 - recursos → base de datos y diagramas
 
+## Ejecución
+
+1. Crear la base de datos ejecutando el script:
+   recursos/base_de_datos.sql
+
+2. Configurar la conexión en:
+   Conexion.java
+
+3. Ejecutar la clase principal:
+   Escuela_Proyecto.java
+   
+## Patrón utilizado
+
+- DAO (Data Access Object)
+  
 ## Autor
 
 Luis Enrique Escamilla
+
+## video de su funcionamiento y explicacion de como se hizo
