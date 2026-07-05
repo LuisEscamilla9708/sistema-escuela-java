@@ -39,3 +39,17 @@ CREATE TABLE calificaciones (
     id_materia INT,
     calificacion DOUBLE
 );
+
+DIRECTOR
+INSERT INTO director (nombre, apellido, edad, telefono, correo)
+VALUES ('Carlos', 'Ramirez', 55, '5551234567', 'director@escuela.com');
+
+MAESTROS
+INSERT INTO maestros (nombre, apellido, edad, especialidad) VALUES
+('Ana', 'Lopez', 40, 'Matematicas'),
+('Luis', 'Garcia', 38, 'Historia');
+
+ALUMNOS
+INSERT INTO alumnos (nombre, apellido, edad, grado, grupo) VALUES
+('Juan', 'Perez', 12, 1, 'A'),
+('Maria', 'Hernandez', 13, 2, 'B');
