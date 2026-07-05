@@ -1,0 +1,13 @@
+paquete\escuela_proyecto\Persona.class
+paquete\escuela_proyecto\Conexion.class
+paquete\escuela_proyecto\Materia.class
+paquete\escuela_proyecto\Calificacion.class
+paquete\escuela_proyecto\MaestroDAO.class
+paquete\escuela_proyecto\Maestro.class
+paquete\escuela_proyecto\Director.class
+paquete\escuela_proyecto\MateriaDAO.class
+paquete\escuela_proyecto\DirectorDAO.class
+paquete\escuela_proyecto\Escuela_Proyecto.class
+paquete\escuela_proyecto\CalificacionDAO.class
+paquete\escuela_proyecto\AlumnoDAO.class
+paquete\escuela_proyecto\Alumno.class
