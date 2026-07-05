@@ -1,9 +1,41 @@
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/SQLTemplate.sql to edit this template
- */
-/**
- * Author:  kikeh
- * Created: 5 jul 2026
- */
+CREATE DATABASE escuela_jose_marti;
+USE escuela_jose_marti;
 
+CREATE TABLE director (
+    id_director INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellido VARCHAR(50),
+    edad INT,
+    telefono VARCHAR(20),
+    correo VARCHAR(50)
+);
+
+CREATE TABLE maestros (
+    id_maestro INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellido VARCHAR(50),
+    edad INT,
+    especialidad VARCHAR(50)
+);
+
+CREATE TABLE alumnos (
+    id_alumno INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellido VARCHAR(50),
+    edad INT,
+    grado INT,
+    grupo VARCHAR(5)
+);
+
+CREATE TABLE materias (
+    id_materia INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_materia VARCHAR(50),
+    id_maestro INT
+);
+
+CREATE TABLE calificaciones (
+    id_calificacion INT AUTO_INCREMENT PRIMARY KEY,
+    id_alumno INT,
+    id_materia INT,
+    calificacion DOUBLE
+);
