@@ -42,4 +42,5 @@ Proyecto desarrollado en Java con JDBC y MySQL.
 
 Luis Enrique Escamilla
 
-## video de su funcionamiento y explicacion de como se hizo
+## video de su funcionamiento 
+https://drive.google.com/file/d/1N2hSK_8d3ahiPesqHsN9dyY-ycyldmY0/view?usp=sharing
